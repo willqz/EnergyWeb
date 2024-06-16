@@ -1,0 +1,39 @@
+.mr-1 {
+  margin: 10px;
+}
+
+.mt-3 {
+  margin-top: 15px;
+}
+
+.mt-5 {
+  margin-top: 30px;
+}
+  
+.hr-margin {
+  margin: 0px;
+}
+
+.mt-2{
+  margin-top: 10px;
+}
+
+.pointer {
+  cursor: pointer !important;
+}
+
+.redrequired {
+  font-weight: bold;
+  color: red;
+}
+
+.pencil {
+  color: blue;
+  margin-right: 30px;
+  cursor: pointer !important;
+}
+
+.trash {
+  color: red;
+  cursor: pointer !important;
+}
