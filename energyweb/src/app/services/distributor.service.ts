@@ -2,13 +2,16 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Distributor } from '../interfaces/distributor';
 import { Observable } from 'rxjs';
+import { environment } from '../../environments/environment';
+
 
 @Injectable({
   providedIn: 'root'
 })
 export class DistributorService {
 
-  urlApi = 'https://localhost:7007/api/Distributor/';
+  urlApi = environment.baseUrl;
+  //urlApi = 'https://localhost:7007/api/Distributor/';
 
   constructor(private http: HttpClient) { }
   
