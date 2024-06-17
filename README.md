@@ -1,6 +1,6 @@
 Energy WEB Angular 18 with docker
 
-PARA RODAR EXECUTE OS OS PASSO:
+PARA RODAR EXECUTE OS PASSO:
 1) gerar a imagem 
 docker build -t energyweb .
 
